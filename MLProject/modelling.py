@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Set eksperimen agar rapi di log GitHub Actions
-mlflow.set_experiment("Kriteria_3_CICD")
+#mlflow.set_experiment("Kriteria_3_CICD")
 
 def train_model():
     # Path disesuaikan karena dijalankan di dalam folder MLProject
