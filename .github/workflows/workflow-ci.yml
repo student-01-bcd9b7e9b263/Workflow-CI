@@ -27,7 +27,7 @@ jobs:
       - name: Run Modelling (Training Model)
         run: |
           cd MLProject
-          mlflow run .
+          mlflow run . --env-manager=local
         # Langkah ini akan mengeksekusi script Anda untuk melatih model
 
       - name: Save Artifact to GitHub
